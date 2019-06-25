@@ -6,6 +6,12 @@
     "tslint-config-prettier"
   ],
   "jsRules": {},
-  "rules": { "prettier": true },
+  "rules": {
+    "prettier": true,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "no-unused-variable": true,
+    "no-unused-expression": true
+  },
   "rulesDirectory": ["tslint-plugin-prettier"]
 }
